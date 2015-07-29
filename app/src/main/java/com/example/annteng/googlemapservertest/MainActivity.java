@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
                    // message += "#" + count + " from " + socket.getInetAddress()
                    //         + ":" + socket.getPort() + "\n";
 
-                    MainActivity.this.runOnUiThread(new Runnable() {
+                    MainActivity.this.runOnUiThread(new Runnable() { //
                         @Override
                         public void run() {
                            // message += "1";
