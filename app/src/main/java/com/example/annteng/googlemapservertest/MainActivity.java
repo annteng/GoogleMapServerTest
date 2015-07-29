@@ -170,15 +170,9 @@ public class MainActivity extends AppCompatActivity {
 
                 while (true) {
 
-                  //  Log.d(APP_TAG, "while true2");
-
-                  //  Log.e(APP_TAG, "while true22");
-
                     count++;
                    // message += "#" + count + " from " + socket.getInetAddress()
                    //         + ":" + socket.getPort() + "\n";
-
-                    //message +=
 
                     MainActivity.this.runOnUiThread(new Runnable() {
                         @Override
